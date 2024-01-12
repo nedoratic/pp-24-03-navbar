@@ -111,3 +111,30 @@ nav {
 .navbar__social-icons {
 	display: none;
 }
+
+@media screen and (min-width: 768px) {
+	.navbar {
+		flex-wrap: nowrap;
+	}
+
+	.navbar__logo {
+		flex: 0 0 auto;
+		padding: 1em 0 1em 1em;
+	}
+
+	.navbar__menu-items {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-left: 1em;
+	}
+
+	.navbar__menu-items li {
+		padding: 0 1em;
+	}
+
+	.navbar__toggler {
+		display: none;
+	}
+}
