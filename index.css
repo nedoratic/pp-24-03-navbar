@@ -49,12 +49,14 @@ nav {
 	max-width: 1024px;
 	margin: 0 auto;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
 
 .navbar__logo {
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	padding: 1em 0 1em 1em;
 }
@@ -92,7 +94,14 @@ nav {
 /* Menu Items */
 
 .navbar__menu-items {
-	display: none;
+	/* display: none; */
+	flex-basis: 100%;
+	flex-grow: 1;
+	padding: 0.5em 1em;
+}
+
+.navbar__menu-items li {
+	padding: 0.2em;
 }
 
 /* Social Icons */
