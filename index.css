@@ -94,7 +94,6 @@ nav {
 /* Menu Items */
 
 .navbar__menu-items {
-	/* display: none; */
 	flex-basis: 100%;
 	flex-grow: 1;
 	padding: 0.5em 1em;
@@ -102,6 +101,10 @@ nav {
 
 .navbar__menu-items li {
 	padding: 0.2em;
+}
+
+.hide {
+	display: none;
 }
 
 /* Social Icons */
